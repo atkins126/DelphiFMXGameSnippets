@@ -18,10 +18,12 @@ Des informations complémentaires seront prochainement disponibles sur le blog h
 Les projets de ce dépôt sont dans le groupe fr.developpeurpascal.demo.*
 Merci de ne pas les diffuser sur les magasins d'application ni ailleurs en version compilée mais de systématiquement renvoyer vers ce site.
 
-Cette librairie a été créée en direct sur Twitch lors de l'opération GamingForSidaction en faveur du [Sidaction 2021](https://sidaction.org). Vous pouvez consulter le replay de la première journée sur https://www.twitch.tv/videos/964898422 et celui de la seconde journée sur https://www.twitch.tv/videos/964898422 jusqu'au 26 mai 2021, date à laquelle ils disparaîtront de Twitch.
+Cette librairie a été créée en direct sur Twitch lors de l'opération GamingForSidaction en faveur du [Sidaction 2021](https://sidaction.org). Vous pouvez consulter le replay de ce week-end sur https://serialstreameur.fr/sidaction-2021.php
 
-Si vous voulez voir le résultat de ces animations dans un vrai jeu vidéo, jetez donc un oeil à Ok ducky développé en direct sur le même week-end (et donc visible dans les 2 rediffusion Twitch ci-dessus) :
+Si vous voulez voir le résultat des animations dans un vrai jeu vidéo, jetez donc un oeil à Ok Ducky développé en direct lors de ce week-end de game coding en live :
 https://gamolf.itch.io/ok-ducky
+
+D'autres jeux ont été développés tout au long de l'année 2021 et au delà sur Twitch. Les rediffusions de ces sessions sont disponibles sur https://serialstreameur.fr/jeux-video.php ou la rubrique live coding du site https://serialstreameur.fr/live-coding.php
 
 -----
 
@@ -140,12 +142,29 @@ Le son de test (WAV) est téléchargé au lancement du programme et mis en cache
 
 La musique de test (MP3) est téléchargée au lancement du programme et mis en cache depuis la page https://opengameart.org/content/battle-theme-b-for-rpg avec comme URL https://opengameart.org/sites/default/files/battleThemeB.mp3
 
+* UtilisationSpriteSheet
+
+Exemple d'utilisation et de découpage d'une spritesheet formatée en blocs.
+
+Sprite sheet utilisée comme démo provenant de https://kenney.nl/assets/pixel-platformer
+
+* SpriteSheetSplitter
+
+Découpe une spritesheet (largeur/hauteur identique, éventuelement avec un décalage en largeur ou en hauteur) en sprites.
+
+Téléchargez le programme compilé depuis https://gamolf.itch.io/spritesheet-creator
+
+* BitmapHorizReverse
+
+Fait une symétrie horizontale pour retourner une image et en crée une autre (utile pour récupérer des bas de zone de décor à partir des images du haut).
+
+cf sprites utilisés dans Egg Hunter (vidéos de création sur https://serialstreameur.fr/jv-egg-hunter.php, jeu à télécharger sur https://gamolf.itch.io/egg-hunter)
+
 -----
 
 ## TODO LIST
 
-* Faire un programme de test de l'unité uMusicLoop.pas sur toutes les plateformes, en tant que son, simple ou multiple, et en tant que boucle d'ambiance.
-* Ajouter la gestion du volume sur la musique
+* ajouter des projets de tests unitaires pour les unités réutilisables 
 
 -----
 
@@ -156,8 +175,8 @@ https://www.embarcadero.com/products/delphi
 Cette formation en ligne gratuite vous apprendra les bases de la programmation avec le Pascal et Delphi même si vous n'avez jamais appris à programmer :
 https://apprendre-delphi.fr/apprendre-la-programmation-avec-delphi/
 
-Retrouvez les rediffusions de mes conférences en ligne et webinaires depuis la page https://developpeur-pascal.fr/p/_6007-webinaires.html
+Des conférences en ligne et des webinaires (points techniques sur des sujets précis) sont organisés régulièrement. Consultez [le planning de ces webinaires](https://developpeur-pascal.fr/p/_6007-webinaires.html) et regardez les [rediffusions des webinaires Delphi](https://serialstreameur.fr/webinaires-delphi.php).
 
-Des sessions de codage Delphi en direct sont organisées tous les jeudi à 14 heures (heure de Paris, France). Rejoignez moi sur https://www.twitch.tv/patrickpremartin et retrouvez le programme ou des informations complémentaires sur https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html
+Des sessions de [live coding sur Twitch](https://www.twitch.tv/patrickpremartin) ou [la chaîne YouTube Developpeur Pascal](https://www.youtube.com/channel/UCk_LmkBB90jdEdmfF77W6qQ) sont également organisées régulièrement. Pour Twitch vous pouvez consulter [le planning hebdomadaire](https://www.twitch.tv/patrickpremartin/schedule). Vous pouvez aussi vous reporter à [cet article](https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html). Pour les rediffusions de tout ça, rendez-vous simplement dans la [rubrique live coding](https://serialstreameur.fr/live-coding.php) de [Serial Streameur](https://serialstreameur.fr/) où vous trouverez de nombreuses vidéos en français à destination des développeurs de logiciels, applications mobiles, sites web et jeux vidéo.
 
-Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur https://delphi-books.com/
+Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur [Delphi Books](https://delphi-books.com)
