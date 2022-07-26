@@ -110,7 +110,7 @@ Animation du changement de valeur d'un score.
 
 Affichage d'un texte façon générique de Star Wars (défilement du bas vers le centre de l'écran en profondeur).
 
-Image de fond provenant de la NASA.
+Image de fond provenant de la [NASA](https://github.com/DeveloppeurPascal/DelphiFMXGameSnippets/tree/main/AffichageTexteGeneriqueStarWars/NASA/README.md).
 Son d'ambiance provenant de https://www.soundboard.com/sb/sound/918028
 (téléchargé au premier lancement du programme dans le dossier de l'exe)
 
@@ -128,8 +128,6 @@ Des croix blanches et noires qui tournent en alternance.
 
 Cet exemple utilise les composants Radiant Shapes disponibles depuis GetIt.
 https://getitnow.embarcadero.com/bonus-radiant-shapes/
-
-TODO : comprendre pourquoi un contour persiste lors de la rotation des croix puis le corriger
 
 * MusicLoopUnitTest
 
@@ -159,12 +157,6 @@ Téléchargez le programme compilé depuis https://gamolf.itch.io/spritesheet-cr
 Fait une symétrie horizontale pour retourner une image et en crée une autre (utile pour récupérer des bas de zone de décor à partir des images du haut).
 
 cf sprites utilisés dans Egg Hunter (vidéos de création sur https://serialstreameur.fr/jv-egg-hunter.php, jeu à télécharger sur https://gamolf.itch.io/egg-hunter)
-
------
-
-## TODO LIST
-
-* ajouter des projets de tests unitaires pour les unités réutilisables 
 
 -----
 
